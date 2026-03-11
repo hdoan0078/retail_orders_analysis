@@ -1,6 +1,6 @@
 # retail_orders_analysis
-Retail Sales Performance Using Python and SQL
-Project Overview
+# Retail Sales Performance Using Python and SQL
+# Project Overview
 
 Retail businesses generate thousands of transactions across different products, regions, and time periods. However, raw transactional data alone does not provide clear answers to key business questions such as:
 
