@@ -50,7 +50,9 @@ Sales Trends Over Time
 
 # Year-over-Year Monthly Sales Trends
 Retail businesses often experience seasonal patterns in sales. Some months perform much better than others depending on consumer behavior, holidays, or promotional cycles. By comparing sales trends over time, it becomes easier to see whether the business is growing and which periods tend to generate the highest revenue. This type of insight can help companies prepare for high-demand periods and plan marketing or promotions more effectively.
+
 <img width="250" height="245" alt="image" src="https://github.com/user-attachments/assets/3cdaa0d5-0371-475d-b5b4-364ca04dc14e" />
+
 By comparing monthly sales between 2022 and 2023, the analysis reveals how sales performance changes over time.
 This helps answer questions such as:
 - Are sales increasing year over year?
