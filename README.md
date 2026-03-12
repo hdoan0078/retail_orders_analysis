@@ -1,4 +1,4 @@
-# retail_orders_analysis
+
 # Retail Sales Performance Using Python and SQL
 # Project Overview
 Retail companies generate a large amount of transaction data every day, but raw data alone does not always make it easy to understand what is actually happening in the business. The purpose of this project was to analyze retail order data in order to uncover patterns in product performance, regional demand, and sales growth over time.
@@ -37,7 +37,9 @@ By aggregating sales by product, the analysis identifies the top 10 products gen
 
 Another interesting insight came from comparing product performance across different regions. Not all products perform equally everywhere. Some products may be very popular in one region but less successful in another.
 By identifying the best-selling products in each region, businesses can better understand regional preferences and tailor their strategies accordingly. This can help improve inventory distribution and create more targeted marketing campaigns.
+
 <img width="266" height="401" alt="image" src="https://github.com/user-attachments/assets/f011a450-2bff-4265-b8dc-727ec86270fc" /> 
+
 Sales patterns often vary across different regions. Using SQL window functions, this project identifies the top 5 best-selling products in each region. This insight allows the business to:
 - Understand regional customer preferences
 - Adjust regional inventory distribution
