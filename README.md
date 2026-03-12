@@ -2,33 +2,29 @@
 # Retail Sales Performance Using Python and SQL
 # Project Overview
 
-Retail businesses generate thousands of transactions across different products, regions, and time periods. However, raw transactional data alone does not provide clear answers to key business questions such as:
+Project Overview
 
+Retail companies generate large volumes of transaction data every day, including information about products sold, order dates, customer locations, pricing, and discounts. However, raw transactional data alone does not provide clear answers to key business questions such as:
 - Which products generate the most revenue?
-- Which regions drive the strongest product demand?
-- How are sales trends changing over time?
-- Which product segments are growing or declining?
+- Which regions drive the strongest sales performance?
+- How are sales trends evolving over time?
+- Which product categories are growing and which are declining?
+The goal of this project was to build an end-to-end data analysis pipeline that transforms raw retail transaction data into meaningful business insights.
 
-In this project, I performed an end-to-end retail sales analysis using Python and SQL to transform raw transactional data into actionable business insights.
+To accomplish this, I developed a workflow that combines Python for data preparation and SQL for business analysis. The project begins with retrieving a retail dataset using the Kaggle API, followed by data cleaning and feature engineering in Python using Pandas. After preparing the dataset, the processed data is loaded into SQL Server, where SQL queries are used to answer business questions related to revenue performance, regional demand, and product growth trends.
 
-The project begins with retrieving the dataset using the Kaggle API, followed by data cleaning and feature engineering in Python (Pandas). The cleaned dataset is then loaded into SQL Server, where advanced SQL queries are used to answer key business questions about product performance, regional sales patterns, and revenue growth.
-
-The goal of this project is to demonstrate a typical data analyst workflow, combining:
-- Data acquisition
-- Data cleaning
-- Feature engineering
-- Database integration
-- SQL-based business analysis
-
-By transforming raw retail order data into meaningful insights, this project illustrates how data can support better decision-making in retail operations.
+This project demonstrates a typical data analyst workflow, moving from raw data to actionable business insights.
 
 
-# Business Context
+# Data Acquisition
 
-Imagine a retail company that sells products across multiple categories such as Furniture, Office Supplies, and Technology, with orders placed throughout the United States. Every day, thousands of transactions occur across various cities and regions. While the company collects a large amount of data, the leadership team still faces important questions:
-- Which products are actually driving revenue?
-- Are certain regions performing better than others?
-- Are sales growing year over year?
-- Which product segments should receive more investment?
-- Without structured analysis, these questions are difficult to answer.
-This project simulates the work of a data analyst in a retail organization, where the objective is to transform raw order data into clear, data-driven insights that can guide business strategy.
+The first step in the project was obtaining the dataset. Instead of manually downloading files, I used the Kaggle API to retrieve the dataset programmatically. This approach improves reproducibility and allows datasets to be integrated easily into automated workflows.
+
+The dataset used in this project is the Retail Orders dataset, which contains approximately 10,000 retail transactions across multiple product categories and regions in the United States.
+
+Using the Kaggle API, the dataset was downloaded directly into the Jupyter Notebook environment.
+
+```dax
+!pip install kaggle
+!kaggle datasets download ankitbansal06/retail-orders -f orders.csv
+```
