@@ -10,7 +10,7 @@ Through this analysis, I wanted to answer a few key questions that are important
 
 By exploring these questions, the goal of the project was to turn raw sales data into insights that could help a business make better decisions about inventory, marketing, and product strategy.
 
-**Business Context**
+## Business Context
 
 Imagine a retail company that sells thousands of products across different regions in the United States. Every day, orders are placed by customers from different cities and markets, creating a large dataset of transactions.
 However, simply having the data is not enough. Business leaders still need clear answers to important questions such as:
